@@ -85,7 +85,7 @@ def Recognize_Digit():
     cv2.waitKey(0)
     
 def callback():
-        webbrowser.open_new(r"www.google.com")    
+        webbrowser.open_new(r"https://github.com/DevanshUpadhyay26/Handwritten-digit")    
 btn_save = Button(text='Recognize Digits',width=15, height=3, command=Recognize_Digit)
 btn_save.grid(row=2, column=0, pady=1, padx=1)
 button_clear = Button(text='Clear Output',width=15, height=3, command=clear_widget)
